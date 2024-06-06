@@ -98,15 +98,24 @@ nav {
   height: inherit;
 }
 
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Section */
 
 section {
-  width: 100%;
+  max-width: 87rem;
   padding: 1.75rem 1rem 1rem 1rem;
 }
 
 @media all and (max-width:425px) {
   section {
+    width: 100%;
     padding: 1rem 0;
   }
 }
